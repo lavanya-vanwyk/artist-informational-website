@@ -1,11 +1,11 @@
 # Artist Informational Website
 
-This weather application uses the SheCodes weather API to pull real-time weather data and display it in the interface I built.
+This website is a small informational website I built to be responsive using pure HTML & CSS,  without Bootstrap!
 
 
 ## Project goals and features
 
-The aim of this project was to build a beautiful landing page for one of my favourite visual artists. Styled dynamically and responsively using CSS Grids. I wanted to find a way to encorporate an HTML table without just coding a bland info table with just data. While not common practice, I used it as a scrollable "gallery" of images
+The aim of this project was to build a beautiful landing page for one of my favourite visual artists. Styled dynamically and responsively using CSS Grids. I wanted to find a way to incorporate an HTML table without just coding a bland info table with just data. While not common practice, I used it as a scrollable "gallery" of images
 The challenge with these tables is making them responsive, however using a little overflow hack and limiting the size of the container, one is able to! This was very fun to build and I am happy with how sleek it came out.
 
 ## Tech stack & tools
