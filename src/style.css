@@ -8,6 +8,7 @@
 body {
   font-family: "Yrsa", serif;
   font-optical-sizing: auto;
+  background-color: var(--tertiary-color);
 }
 .container {
   max-width: 1400px;
@@ -21,6 +22,7 @@ body {
 }
 .grid-2-col {
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 .grid-3-col-narrow {
   grid-template-columns: 1fr 2fr 2fr;
@@ -129,7 +131,7 @@ main h2 {
   margin: 0;
   letter-spacing: 5px;
   color: var(--sub-heading);
-  opacity: 0.3;
+  opacity: 0.6;
   text-transform: uppercase;
 }
 
@@ -166,9 +168,18 @@ main p {
 }
 .gallery-container {
   overflow-x: auto;
+  padding: 20px 50px;
 }
-.gallery {
+.gallery,
+td {
   width: 300px;
+}
+.gallery-titles {
+  color: var(--sub-heading);
+  text-align: center;
+}
+.gallery-titles em {
+  color: var(--bold-heading);
 }
 footer {
   color: white;
