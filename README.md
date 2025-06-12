@@ -10,7 +10,8 @@ The challenge with these tables is making them responsive, however using a littl
 
 ## Tech stack & tools
 
-* JavaScript ES6
+* HTML5
+* CSS3
 * Prettier 11.0.0.
 * Google Fonts
 * Netlify
